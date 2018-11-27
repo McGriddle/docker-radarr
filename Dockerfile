@@ -1,4 +1,4 @@
-FROM linuxserver/nzbget
+FROM linuxserver/radarr
 
 # install packages
 RUN \
