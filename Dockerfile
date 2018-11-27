@@ -2,5 +2,7 @@ FROM linuxserver/radarr
 
 # install packages
 RUN \
- apk add --no-cache py-pip \
- && pip install requests
+ apt-get update && apt-get -y install python-pip
+RUN \
+ pip install requests
+
